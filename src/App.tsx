@@ -1,11 +1,12 @@
 import './App.css'
 
+/* Components */
+import GraphicDesign from './components/GraphicDesign'
+
 function App() {
   return (
     <>
-      <div>
-        Graphic Design
-      </div>
+      <GraphicDesign />
     </>
   )
 }

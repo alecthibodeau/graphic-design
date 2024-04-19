@@ -1,0 +1,56 @@
+@use './variables' as *;
+
+.graphic-design {
+  padding-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Varela', sans-serif;
+  background-color: $white;
+  color: $ninety-five-percent-gray;
+}
+
+h1 {
+  padding-top: .25rem;
+  margin-bottom: .25rem;
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin: .25rem .25rem 1.75rem;
+  font-size: 1.25rem;
+}
+
+.graphic-design-images {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  align-items: center;
+  margin: 0 auto;
+
+  > div {
+    margin-bottom: 4.5rem;
+  }
+
+  .entry-image {
+    max-width: 90vw;
+  }
+
+  .caption-one {
+    margin: .75rem auto .25rem;
+  }
+}
+
+/* Breakpoint Small */
+
+@media (min-width: $breakpoint-sm) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .graphic-design-images > div {
+    margin-bottom: 5rem;
+  }
+}
