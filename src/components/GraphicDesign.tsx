@@ -18,17 +18,17 @@ interface GraphicDesignEntry {
 const graphicDesignEntries = [
   {
     image: image01,
-    captionOne: 'Image editing work for creative agency',
+    captionOne: 'Image editing for creative agency',
     captionTwo: 'Adobe Photoshop',
   },
   {
     image: image02,
-    captionOne: 'Image editing work for creative agency',
+    captionOne: 'Image editing for creative agency',
     captionTwo: 'Adobe Photoshop',
   },
   {
     image: image03,
-    captionOne: 'Image editing work for creative agency',
+    captionOne: 'Image editing for creative agency',
     captionTwo: 'Adobe Photoshop',
   },
   {
