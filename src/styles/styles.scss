@@ -2,9 +2,7 @@
 
 .graphic-design {
   padding-top: 1rem;
-  font-family: 'Roboto', sans-serif;
   font-family: 'Varela', sans-serif;
-  background-color: $white;
   color: $ninety-five-percent-gray;
 }
 
@@ -22,9 +20,7 @@ h2 {
 .graphic-design-images {
   display: flex;
   flex-direction: column;
-  max-width: 1000px;
   align-items: center;
-  margin: 0 auto;
 
   > div {
     margin-bottom: 4.5rem;
@@ -35,7 +31,7 @@ h2 {
   }
 
   .caption-one {
-    margin: .75rem auto .25rem;
+    margin: .75rem auto .125rem;
   }
 }
 

@@ -14,7 +14,7 @@ function GraphicDesign(): JSX.Element {
           src={entry.image}
         />
         <div className="caption-one">{entry.captionOne}</div>
-        <div className="caption-two">{'Tools: ' + entry.captionTwo}</div>
+        <div>{'Tools: ' + entry.captionTwo}</div>
       </div>
     );
   }
