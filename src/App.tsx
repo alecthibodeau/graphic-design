@@ -4,9 +4,10 @@ import './App.css'
 import GraphicDesign from './components/GraphicDesign'
 
 function App() {
+  const isAvailable: boolean = false;
   return (
     <>
-      <GraphicDesign />
+      {isAvailable ? <GraphicDesign /> : <div>Nothing to see here</div>}
     </>
   )
 }
